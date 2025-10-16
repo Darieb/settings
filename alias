@@ -1,0 +1,27 @@
+# General aliases
+alias	ls='/bin/ls -G'
+alias	la='/bin/ls -laG' 
+alias	ll='/bin/ls -lG' 
+alias	d='dirs -v' 
+alias	more='/usr/bin/less'
+alias   ts='tox -e style'
+alias   diff2="/usr/bin/diff -y"
+alias   pprint='enscript -Gj2r --color=1 --mark-wrapped-lines=arrow'
+alias   mntlinx="sudo ext4fuse /dev/disk0s4 ~/thumb -o local,allow_other,logfile=/tmp/elog"
+alias   doh="/usr/bin/ssh -y declan@newdoh.local"
+# CHIRP-specific aliases
+alias   tf='tox -e fast-driver'
+alias   tf2='tox -e driver -- -k Yaesu_FT2D_R'
+alias   tf1='tox -e driver -- -k Yaesu_FT-1D_R'
+alias   tf3='tox -e driver -- -k Yaesu_FT3D_R'
+alias   tf4='tox -e driver -- -k Yaesu_FTM-3200D_R'
+alias   tf5='tox -e driver -- -k Yaesu_FTM-7250D'
+alias   tfk='tox -e driver -- -k Elecraft_KX3'
+alias   gitl="git log --oneline --graph --decorate --all --author=WD5EQY"
+alias   activate="source ./.venv/bin/activate"
+alias   pylint='pylint -rn -j0 ' 
+alias   gdiff='git -p -- ' 
+# get USB traffic
+alias   usbup="sudo ifconfig XHC20 up"
+alias   usbdown="sudo ifconfig XHC20 down"
+alias   SPI="echo 'reboot cmd-R;terminal csrutil [en][dis]able"
