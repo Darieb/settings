@@ -15,7 +15,8 @@ alias   tf2='tox -e driver -- -k Yaesu_FT2D_R'
 alias   tf1='tox -e driver -- -k Yaesu_FT-1D_R'
 alias   tf3='tox -e driver -- -k Yaesu_FT3D_R'
 alias   tf4='tox -e driver -- -k Yaesu_FTM-3200D_R'
-alias   tf5='tox -e driver -- -k Yaesu_FTM-7250D'
+alias   tf5='tox -e driver -- -k Yaesu_FT5D_R'
+alias   tf6='tox -e driver -- -k Yaesu_FTM-7250D'
 alias   tfk='tox -e driver -- -k Elecraft_KX3'
 alias   gitl="git log --oneline --graph --decorate --all --author=WD5EQY"
 alias   activate="source ./.venv/bin/activate"
